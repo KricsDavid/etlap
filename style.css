@@ -1,0 +1,50 @@
+table{
+    height: 500px;
+    width: 500px;
+    border: solid black 5px;
+    float: left;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+td{
+    border: solid black 2px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+}
+th{
+    width: 100px;
+    height: 100px;
+}
+div{
+    text-align: center;
+    
+}
+
+#keret{
+    height: 800px;
+    width: 800px;
+}
+#leves{
+    overflow: scroll;
+    width: 500px;
+    height: 150px;
+}
+
+
+#foetel{
+    overflow: scroll;
+    width: 500px;
+    height: 150px;
+}
+
+#desszert{
+    overflow: scroll;
+    width: 500px;
+    height: 150px;
+}
