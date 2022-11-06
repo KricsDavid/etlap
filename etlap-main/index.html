@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link rel="shortcut icon" href="Képkivágás.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Étterem</title>
+</head>
+<body>
+    <img class="logo" src="kepek/Képkivágás.png" alt="logo" title="Los Pollos Mechwartos">
+    <div class="hatter2">
+        <div class="flex-container">
+            <div>Ételek</div>
+            <div><a href="elerhetoseg.html" title="Elérhetőségek">Elérhetőségek</a></div>
+            <div><a href="Rendelés.html" title="Rendelés">Rendelés</a></div>
+        </div>
+        <h1>Étlap</h1>
+    </div>
+
+
+
+    <div class="sav" id="elsosav">
+        <ul class="etelLista">
+            <li>Levesek</li>
+            <li><div class="mezo leves" onclick="kivalasztas(this)"><p class="ar">999 Ft</p><p class="etelNev">Babgulyás</p><img src="Áruk/Levesek/babgulyás.jpg"></div></li>
+            <li><div class="mezo leves" onclick="kivalasztas(this)"><p class="ar">899 Ft</p><p class="etelNev">Ferenc József kedvenc levese</p><img class="hosszu" src="Áruk/Levesek/ferencjózsefkedvenclevese.png"></div></li>
+            <li><div class="mezo leves" onclick="kivalasztas(this)"><p class="ar">1199 Ft</p><p class="etelNev">Halászlé</p><img src="Áruk/Levesek/halászlé.PNG"></div></li>
+            <li><div class="mezo leves" onclick="kivalasztas(this)"><p class="ar">499 Ft</p><p class="etelNev">Húsleves</p><img src="Áruk/Levesek/húsleves.png"></div></li>
+            <li><div class="mezo leves" onclick="kivalasztas(this)"><p class="ar">899 Ft</p><p class="etelNev">Zellerkrémleves</p><img src="Áruk/Levesek/zellerkrémleves.jpg"></div></li>
+        </ul>
+    </div>
+    <div class="hatter3"></div>
+
+
+
+    <div class="sav" id="masodiksav">
+        <ul class="etelLista">
+            <li>Főételek</li>
+            <li><div class="mezo foetel" onclick="kivalasztas(this)"><p class="ar">999 Ft</p><p class="etelNev">Rakott tészta</p><img src="Áruk/Főételek/rakottészta.PNG"></div></li>
+            <li><div class="mezo foetel" onclick="kivalasztas(this)"><p class="ar">399 Ft</p><p class="etelNev">Rántott hal</p><img src="Áruk/Főételek/rántotthal.png"></div></li>
+            <li><div class="mezo foetel" onclick="kivalasztas(this)"><p class="ar">1999 Ft</p><p class="etelNev">Spagetti</p><img src="Áruk/Főételek/spagetti.PNG"></div></li>
+            <li><div class="mezo foetel" onclick="kivalasztas(this)"><p class="ar">1299 Ft</p><p class="etelNev">Gyros</p><img src="Áruk/Főételek/gyros.PNG"></div></li>
+            <li><div class="mezo foetel" onclick="kivalasztas(this)"><p class="ar">999 Ft</p><p class="etelNev">Töltött káposzta</p><img class="hosszu" src="Áruk/Főételek/toltottkáposzta.png"></div></li>
+        </ul>
+    </div>
+    <div class="hatter2"></div>
+
+
+
+    <div class="sav" id="harmadiksav">
+        <ul class="etelLista">
+            <li>Desszert</li>
+            <li><div class="mezo desszert" onclick="kivalasztas(this)"><p class="ar">599 Ft</p><p class="etelNev">Gesztenyepüré</p><img src="Áruk/Desszertek/gesztenyepure.png"></div></li>
+            <li><div class="mezo desszert" onclick="kivalasztas(this)"><p class="ar">899 Ft</p><p class="etelNev">Krémes</p><img src="Áruk/Desszertek/kremes.png"></div></li>
+            <li><div class="mezo desszert" onclick="kivalasztas(this)"><p class="ar">699 Ft</p><p class="etelNev">Mákosguba</p><img src="Áruk/Desszertek/mákoshuba.jpg"></div></li>
+            <li><div class="mezo desszert" onclick="kivalasztas(this)"><p class="ar">799 Ft</p><p class="etelNev">Málnás kocka</p><img src="Áruk/Desszertek/malnaskocka.png"></div></li>
+            <li><div class="mezo desszert" onclick="kivalasztas(this)"><p class="ar">399 Ft</p><p class="etelNev">Palacsinta</p><img src="Áruk/Desszertek/palacsinta.png"></div></li>
+        </ul>
+    </div>
+    <div class="hatter3"></div>
+
+    <div class="sav" id="negyediksav">
+        <ul class="etelLista">
+            <li>Italok</li>
+            <li><div class="mezo ital" onclick="kivalasztas(this)"><p class="ar">299 Ft</p><p class="etelNev">Víz</p><img src="Áruk/Italok/víz.jfif"></div></li>
+            <li><div class="mezo ital" onclick="kivalasztas(this)"><p class="ar">349 Ft</p><p class="etelNev">Narancslé</p><img src="Áruk/Italok/narancslé.jpeg"></div></li>
+            <li><div class="mezo ital" onclick="kivalasztas(this)"><p class="ar">399 Ft</p><p class="etelNev">Kóla</p><img src="Áruk/Italok/cola.jpg"></div></li>
+            <li><div class="mezo ital" onclick="kivalasztas(this)"><p class="ar">499 Ft</p><p class="etelNev">Sör</p><img src="Áruk/Italok/sör.jfif"></div></li>
+            <li><div class="mezo ital" onclick="kivalasztas(this)"><p class="ar">999 Ft</p><p class="etelNev">Bor</p><img src="Áruk/Italok/bor.jpg"></div></li>
+        </ul>
+    </div>
+    <div class="hatter3">    
+        <div id="impresszum">
+        <p>Az üzemeltető, a honlap tulajdonos adatai</p>
+        <p>Név: Los Pollos Mechwartos</p>
+        <p>Cím: 5093 3 Nazareth Izrael</p>
+        <p>Postai levelezési cím: 5093 3 Nazareth Izrael</p>
+        <p>Adószám: Jó vicc</p>
+        <p>E-mail cím: lospollos@mechwartos.com</p>
+        <p>Telefonszám: +972-4-645-6042</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link rel="shortcut icon" href="Képkivágás.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Étterem</title>
+</head>
+<body onload="menuFrissites()">
+    <div class="hatter3" style="height: 1300px;">
+        <div class="flex-container">
+            <div><a href="index.html" title="Ételek">Ételek</a></div>
+            <div><a href="elerhetoseg.html" title="Elérhetőségek">Elérhetőségek</a></div>
+            <div>Rendelés</div>
+        </div>
+        <h1 id="cim">Rendelése</h1>
+        <div class="sav" id="harmadiksav">
+            <ul id="rendelesek">
+                <li class="mezo">
+                    <h3 style="color: white;">Leves:</h3>
+                    <img id="rendeltLeves" src="Áruk/semmi.png">
+                </li>
+                <li class="mezo">
+                    <h3 style="color: white;">Főétel:</h3>
+                    <img id="rendeltFoetel" src="Áruk/semmi.png">
+                </li>
+                <li class="mezo">
+                    <h3 style="color: white;">Desszert:</h3>
+                    <img id="rendeltDesszert" src="Áruk/semmi.png">
+                </li>
+                <li class="mezo">
+                    <h3 style="color: white;">Ital:</h3>
+                    <img id="rendeltItal" src="Áruk/semmi.png">
+                </li>
+            </ul>
+        </div>
+
+        <div class="button">
+            <input type="button" onclick="elkuldes()" value="Küldés">
+        </div>
+
+
+
+
+        </div>
+        <div class="hatter3">    
+            <div id="impresszum">
+            <p>Az üzemeltető, a honlap tulajdonos adatai</p>
+            <p>Név: Los Pollos Mechwartos</p>
+            <p>Cím: 5093 3 Nazareth Izrael</p>
+            <p>Postai levelezési cím: 5093 3 Nazareth Izrael</p>
+            <p>Adószám: Jó vicc</p>
+            <p>E-mail cím: lospollos@mechwartos.com</p>
+            <p>Telefonszám: +972-4-645-6042</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

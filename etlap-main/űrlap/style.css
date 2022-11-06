@@ -1,0 +1,30 @@
+fieldset{
+    background-color: rgba(220,220,240,255);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    margin: 10px;
+}
+
+input[type="button"]{
+    width: 50%;
+    height: 40px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+}
